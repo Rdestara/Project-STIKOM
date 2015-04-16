@@ -1,0 +1,173 @@
+import java.util.*;
+public class survey
+{
+ public static void main(String[]args)
+ {
+
+   Scanner i = new Scanner (System.in);
+   String nama[] = new String[60];
+   int a;
+   String os[] = new String[60];
+   int b;
+   int android;
+   int blackberry;
+
+ 
+   nama [0] = "Rendy";
+   os [0] = "Windows";
+   nama [1] = "Badruz";
+   os [1] = "Android";
+   nama [2] = "Septian";
+   os [2] = "Android";
+   nama [3] = "Firman";
+   os [3] = "IOS";
+   nama [4] = "Alip";
+   os [4] = "Symbian";
+   nama [5] = "Ghivari";
+   os [5] = "Android";
+   nama [6] = "Dicky";
+   os [6] = "Symbian";
+   nama [7] = "Arda";
+   os [7] = "Blackberry";
+   nama [8] = "Andi";
+   os [8] = "Android";
+   nama [9] = "Elda";
+   os [9] = "Android";
+   nama [10] = "Rozak";
+   os [10] = "Symbian";
+   nama [11] = "Arizky";
+   os [11] = "IOS";
+   nama [12] = "Arizky";
+   os [12] = "Android";
+   nama [13] = "Tito";
+   os [13] = "BlackBerry";
+   nama [14] = "Sandy";
+   os [14] = "Android";
+   nama [15] = "Lila";
+   os [15] = "Symbian";
+   nama [16] = "Kurniawan";
+   os [16] = "IOS";
+   nama [17] = "Okta";
+   os [17] = "Android";
+   nama [18] = "Febby";
+   os [18] = "Blackberry";
+   nama [19] = "Dido";
+   os [19] = "IOS";
+   nama [20] = "Viki";
+   os [20] = "Android";
+   nama [21] = "Lina";
+   os [21] = "Android";
+   nama [22] = "Beny";
+   os [22] = "Blackberry";
+   nama [23] = "Abidin";
+   os [23] = "Android";
+   nama [24] = "Dimas";
+   os [24] = "Android";
+   nama [25] = "Sunandar";
+   os [25] = "Symbian";
+   nama [26] = "Siti";
+   os [26] = "Android";
+   nama [27] = "Erik";
+   os [27] = "Android";
+   nama [28] = "Rina";
+   os [28] = "Android";
+   nama [29] = "Kansai";
+   os [29] = "Android";
+   nama [30] = "Destara";
+   os [30] = "Blackberry";
+   nama [31] = "Firmanto";
+   os [31] = "Windows";
+   nama [32] = "Bimo";
+   os [32] = "Windows";
+   nama [33] = "Agung";
+   os [33] = "Symbian";
+   nama [34] = "Widodo";
+   os [34] = "Android";
+   nama [35] = "Komang";
+   os [35] = "IOS";
+   nama [36] = "Saputra";
+   os [36] = "IOS";
+   nama [37] = "Kurniawan";
+   os [37] = "IOS";
+   nama [38] = "Setia";
+   os [39] = "Windows";
+   nama [39] = "Prambodo";
+   os [39] = "Windows";
+   nama [40] = "Ahmad";
+   os [40] = "Android";
+   nama 41]  = "Dely";
+   os [41] = "IOS";
+   nama [42] = "Deni";
+   os [42] = "Blackberry";
+   nama [44] = "Deril";
+   os [44] = "Android";
+   nama [45] = "Samson";
+   os [45] = "Symbian";
+   nama [46] = "Candra";
+   os [46] = "Windows";
+   nama [47] = "Nadia";
+   os [47] = "Blackberry";
+   nama [48] = "Perdana";
+   os [48] = "Symbian";
+   nama [49] = "Ardi";
+   os [49] = "Blackberry";
+   nama [50] = "Farel";
+   os [50] = "Windows";
+   nama [51] = "Dita";
+   os [51] = "Symbian";
+   nama [52] = "Istifani";
+   os [52] = "IOS";
+   nama [53] = "Budiman";
+   os [53] = "Blackberry";
+   nama [54] = "Roza";
+   os [54] = "Symbian";
+   nama [55] = "Vian;
+   os [55] = "Windows";
+   nama [56] = "Awan";
+   os [56] = "Blackberry";
+   nama [57] = "Dendi";
+   os [57] = "IOS";
+   nama [58] = "Karina";
+   os [58] = "Blackberry";
+   nama [59] = "Selly";
+   os [59] = "Windows";
+   nama [60] = "Dewi";
+   os [60] = "Symbian";
+   
+   /*nama [] = "";
+ *os [] = "";
+ *nama [] = "";
+ *os [] = "";
+ *nama [] = "";
+ *os [] = "";
+ *nama [] = "";
+ *os [] = "";
+ */
+
+
+ for (a = 0 ; a<10 ; a++)
+ {
+ System.out.println("nama : " +nama[a]);
+ System.out.println("os : " +os[a]);
+ }
+
+ android = 0;
+ blackberry = 0;
+ for (a = 0 ; a<10 ; a++)
+ {
+ if ( os[a] == "Android")
+  {android += 1;}
+
+ if ( os[a] == "Blackberry")
+  {blackberry += 1;} 
+
+ }
+ System.out.println(" ");
+ System.out.println("Android : " +android);
+ System.out.println("Blackberry : " +blackberry);
+
+
+
+
+ }
+}
